@@ -23,4 +23,4 @@ Things to hide remove:
 - ✔️ Socks
 - Baseball bat
 - ✔️ Mouse trap
-- Dirty Dishes
+- ✔️ Dirty Dishes
