@@ -11,3 +11,7 @@ Well, submitting this one is better than submitting nothing :d
 ## How we made dis?
 The clash of ideas started even before we found our perfect spot for development. Walking through the corridor multiple times supplied the blood flow to our brains... Well, not really. We basically wanted to finish dis ASAP and have fun. After some time he's put the "kaputt" drawing tablet aside and made it with good old mouse.
 
+## Disclaimer
+The code is very shit, don't inspect it just play the game and get out of here.
+ -Sercan
+
