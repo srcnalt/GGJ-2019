@@ -220,6 +220,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isQuestItem: 0
+  message: 
 --- !u!1 &46451334
 GameObject:
   m_ObjectHideFlags: 0
@@ -328,6 +329,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isQuestItem: 0
+  message: My friend gave me this flower pot when he was going to vacation. It's not
+    mine, I swear!
 --- !u!1 &66995024
 GameObject:
   m_ObjectHideFlags: 0
@@ -436,6 +439,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isQuestItem: 0
+  message: Gotta get refund to buy breakfast. Plus, she thinks that I quit driking.
 --- !u!1 &90614682
 GameObject:
   m_ObjectHideFlags: 0
@@ -544,6 +548,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isQuestItem: 0
+  message: We know.
 --- !u!1 &109562029
 GameObject:
   m_ObjectHideFlags: 0
@@ -652,6 +657,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isQuestItem: 0
+  message: 
 --- !u!1 &170076733
 GameObject:
   m_ObjectHideFlags: 0
@@ -829,6 +835,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isQuestItem: 0
+  message: 
 --- !u!1 &253570012
 GameObject:
   m_ObjectHideFlags: 0
@@ -937,6 +944,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isQuestItem: 0
+  message: I think we are roommates.
 --- !u!1 &328933338
 GameObject:
   m_ObjectHideFlags: 0
@@ -1045,6 +1053,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isQuestItem: 0
+  message: Just painkillers.
 --- !u!1 &456131543
 GameObject:
   m_ObjectHideFlags: 0
@@ -1153,6 +1162,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isQuestItem: 0
+  message: 
 --- !u!1 &465129805
 GameObject:
   m_ObjectHideFlags: 0
@@ -1261,6 +1271,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isQuestItem: 0
+  message: '    Neighbour''s cat is way too lazy. Should I have my own cat, mom? Sorry
+    that you''re allergic to cats. '
 --- !u!1 &534669902
 GameObject:
   m_ObjectHideFlags: 0
@@ -1451,6 +1463,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isQuestItem: 0
+  message: '    I wear it until it stinks. Save the planet! '
 --- !u!1 &570589279
 GameObject:
   m_ObjectHideFlags: 0
@@ -1559,6 +1572,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isQuestItem: 0
+  message: 
 --- !u!1 &637718821
 GameObject:
   m_ObjectHideFlags: 0
@@ -1569,7 +1583,7 @@ GameObject:
   m_Component:
   - component: {fileID: 637718822}
   - component: {fileID: 637718824}
-  - component: {fileID: 637718823}
+  - component: {fileID: 637718825}
   m_Layer: 5
   m_Name: QuestItemsPanel
   m_TagString: Untagged
@@ -1596,35 +1610,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 200}
   m_Pivot: {x: 0.5, y: 0}
---- !u!114 &637718823
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 637718821}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
 --- !u!222 &637718824
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1633,6 +1618,30 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 637718821}
   m_CullTransparentMesh: 0
+--- !u!114 &637718825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 637718821}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2095666955, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding:
+    m_Left: 0
+    m_Right: 0
+    m_Top: 0
+    m_Bottom: 0
+  m_ChildAlignment: 4
+  m_StartCorner: 0
+  m_StartAxis: 0
+  m_CellSize: {x: 200, y: 200}
+  m_Spacing: {x: 0, y: 0}
+  m_Constraint: 0
+  m_ConstraintCount: 2
 --- !u!1 &684978741
 GameObject:
   m_ObjectHideFlags: 0
@@ -1741,6 +1750,86 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isQuestItem: 0
+  message: 
+--- !u!1 &782886108
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 782886109}
+  - component: {fileID: 782886111}
+  - component: {fileID: 782886110}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &782886109
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 782886108}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 978619087}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &782886110
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 782886108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 02dc9500a4445cf40abd0c4142888785, type: 3}
+    m_FontSize: 38
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 3
+    m_MaxSize: 68
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 
+--- !u!222 &782886111
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 782886108}
+  m_CullTransparentMesh: 0
 --- !u!1 &806082329
 GameObject:
   m_ObjectHideFlags: 0
@@ -1849,6 +1938,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isQuestItem: 0
+  message: 
 --- !u!1 &824426734
 GameObject:
   m_ObjectHideFlags: 0
@@ -1957,6 +2047,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isQuestItem: 0
+  message: Come on, it's just a pentagram.
 --- !u!1 &934539926
 GameObject:
   m_ObjectHideFlags: 0
@@ -2065,6 +2156,43 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isQuestItem: 0
+  message: 
+--- !u!1 &978619086
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 978619087}
+  m_Layer: 5
+  m_Name: Messagepanel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &978619087
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 978619086}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 782886109}
+  m_Father: {fileID: 1817433442}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: 0, y: 200}
+  m_SizeDelta: {x: 0, y: 100}
+  m_Pivot: {x: 0.5, y: 0}
 --- !u!1 &998592800
 GameObject:
   m_ObjectHideFlags: 0
@@ -2173,6 +2301,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isQuestItem: 0
+  message: 
 --- !u!1 &1001790571
 GameObject:
   m_ObjectHideFlags: 0
@@ -2281,6 +2410,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isQuestItem: 0
+  message: 
 --- !u!1 &1068928881
 GameObject:
   m_ObjectHideFlags: 0
@@ -2388,7 +2518,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 132baa3ee7b503543a6b671789cef2c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isQuestItem: 1
+  isQuestItem: 0
+  message: 'Neighbour''s cat, comes here to visit me when he needs more attention '
 --- !u!1 &1107583312
 GameObject:
   m_ObjectHideFlags: 0
@@ -2497,6 +2628,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isQuestItem: 0
+  message: 
 --- !u!1 &1132882700
 GameObject:
   m_ObjectHideFlags: 0
@@ -2605,6 +2737,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isQuestItem: 0
+  message: '    It was a fun night though, but, how it landed here? I have no idea. '
 --- !u!1 &1157810306
 GameObject:
   m_ObjectHideFlags: 0
@@ -2656,7 +2789,7 @@ MonoBehaviour:
   m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 1920, y: 1280}
+  m_ReferenceResolution: {x: 1920, y: 1380}
   m_ScreenMatchMode: 1
   m_MatchWidthOrHeight: 1
   m_PhysicalUnit: 3
@@ -2704,6 +2837,85 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &1187443982
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1187443983}
+  - component: {fileID: 1187443985}
+  - component: {fileID: 1187443984}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1187443983
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1187443982}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1784753507}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1187443984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1187443982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_RaycastTarget: 0
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 02dc9500a4445cf40abd0c4142888785, type: 3}
+    m_FontSize: 80
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 8
+    m_MaxSize: 95
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 
+--- !u!222 &1187443985
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1187443982}
+  m_CullTransparentMesh: 0
 --- !u!1 &1198888378
 GameObject:
   m_ObjectHideFlags: 0
@@ -2812,6 +3024,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isQuestItem: 0
+  message: 
 --- !u!1 &1246482754
 GameObject:
   m_ObjectHideFlags: 0
@@ -2920,6 +3133,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isQuestItem: 0
+  message: 
 --- !u!1 &1368612558
 GameObject:
   m_ObjectHideFlags: 0
@@ -3028,6 +3242,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isQuestItem: 0
+  message: '    This is only funny in cartoons, where you respawn after having your
+    head exploded by a dynamite. '
 --- !u!1 &1479151242
 GameObject:
   m_ObjectHideFlags: 0
@@ -3136,6 +3352,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isQuestItem: 0
+  message: '    No worries mom, it''s insulin, not heroine. '
 --- !u!1 &1503809375
 GameObject:
   m_ObjectHideFlags: 0
@@ -3310,6 +3527,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isQuestItem: 0
+  message: 
 --- !u!1 &1749533383
 GameObject:
   m_ObjectHideFlags: 0
@@ -3418,6 +3636,83 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isQuestItem: 0
+  message: This looks better in the toilet. But you would need it in the bedroom as
+    well.
+--- !u!1 &1784753504
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1784753507}
+  - component: {fileID: 1784753506}
+  - component: {fileID: 1784753505}
+  m_Layer: 5
+  m_Name: BlackCover
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1784753505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1784753504}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0}
+  m_RaycastTarget: 0
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+--- !u!222 &1784753506
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1784753504}
+  m_CullTransparentMesh: 0
+--- !u!224 &1784753507
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1784753504}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1187443983}
+  m_Father: {fileID: 1817433442}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 533.6575, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1817433441
 GameObject:
   m_ObjectHideFlags: 0
@@ -3447,13 +3742,15 @@ RectTransform:
   m_Children:
   - {fileID: 1907616934}
   - {fileID: 637718822}
+  - {fileID: 978619087}
+  - {fileID: 1784753507}
   m_Father: {fileID: 1157810310}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1920, y: 1280}
+  m_SizeDelta: {x: 1920, y: 1380}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1818054645
 GameObject:
@@ -3563,6 +3860,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isQuestItem: 0
+  message: 
 --- !u!1 &1849397889
 GameObject:
   m_ObjectHideFlags: 0
@@ -3671,6 +3969,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isQuestItem: 0
+  message: ' I don''t think that my mom would get high with me.'
 --- !u!1 &1907616933
 GameObject:
   m_ObjectHideFlags: 0
@@ -3751,6 +4050,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37af672ab5af08648bf66f13381ac7b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  itemMessageField: {fileID: 782886110}
+  questItemPrefab: {fileID: 5172996257306497093, guid: 041ca33dc899f28488433bcfad1bec00,
+    type: 3}
+  questItemsContainer: {fileID: 637718822}
   items:
   - {fileID: 1749533388}
   - {fileID: 1849397894}
@@ -3782,6 +4085,8 @@ MonoBehaviour:
   - {fileID: 1001790576}
   - {fileID: 109562034}
   - {fileID: 684978746}
+  blackCover: {fileID: 1784753505}
+  scoreText: {fileID: 1187443984}
 --- !u!114 &1907616936
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3927,3 +4232,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isQuestItem: 0
+  message: 

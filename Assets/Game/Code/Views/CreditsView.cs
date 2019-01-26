@@ -1,17 +1,13 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace Code.Views
 {
     public class CreditsView : MonoBehaviour
     {
-        // Start is called before the first frame update
-        private void Start()
+        public void LoadMenuScene()
         {
-        }
-
-        // Update is called once per frame
-        private void Update()
-        {
+            SceneManager.LoadSceneAsync("menu");
         }
     }
 }
