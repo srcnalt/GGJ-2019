@@ -6,6 +6,7 @@ namespace Code.Views
     public class MenuView : MonoBehaviour
     {
         [SerializeField] private Transform menuBG;
+        [SerializeField] private AudioSource audioSource;
 
         private void Update()
         {
@@ -14,11 +15,13 @@ namespace Code.Views
 
         public void LoadIntroLevel()
         {
+            audioSource.Play();
             SceneManager.LoadSceneAsync("Intro");
         }
         
         public void LoadCreditsLevel()
         {
+            audioSource.Play();
             SceneManager.LoadSceneAsync("Credits");
         }
         

@@ -7,6 +7,7 @@ namespace Code.Views
     {
         public void LoadMenuScene()
         {
+            GetComponent<AudioSource>().Play();
             SceneManager.LoadSceneAsync("menu");
         }
     }

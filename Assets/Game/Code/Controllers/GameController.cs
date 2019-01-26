@@ -16,9 +16,12 @@ public class GameController : MonoBehaviour
     private const int ACTIVE_ITEM_COUNT = 5;
     private int foundItemCount;
     private int[] selectedNumbers = new int[ACTIVE_ITEM_COUNT];
+    private AudioSource audioSource;
 
     private void Start()
     {
+        audioSource = GetComponent<AudioSource>();
+        
         for (int i = 0; i < ACTIVE_ITEM_COUNT; i++)
         {
             int randomNum = GetRandomNumber();
@@ -30,7 +33,11 @@ public class GameController : MonoBehaviour
 
                 var newQuestItem = Instantiate<QuestItem>(questItemPrefab, questItemsContainer);
                 newQuestItem.SetSprite(items[randomNum].GetComponent<Image>().sprite);
-                items[randomNum].RevealQuestItemInPanel += newQuestItem.Reveal;
+                items[randomNum].RevealQuestItemInPanel += () =>
+                {
+                     newQuestItem.Reveal();
+                     audioSource.Play();
+                };
                 items[randomNum].RevealQuestItemInPanel += () => StartCoroutine(PrintText(items[randomNum].message));
             }
             else
