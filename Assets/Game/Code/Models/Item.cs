@@ -1,10 +1,13 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using UnityEngine.EventSystems;
 
 public class Item : MonoBehaviour, IPointerClickHandler
 {
     private Animator itemAnimator;
     public bool isQuestItem;
+    public Action RevealQuestItemInPanel;
+    public string message;
 
     private void Start()
     {
@@ -13,11 +16,10 @@ public class Item : MonoBehaviour, IPointerClickHandler
 
     public void OnPointerClick(PointerEventData eventData)
     {
-        Debug.Log("test");
-        
         if (isQuestItem)
         {
             itemAnimator.Play("Found");
+            RevealQuestItemInPanel.Invoke();
         }
     }
 }

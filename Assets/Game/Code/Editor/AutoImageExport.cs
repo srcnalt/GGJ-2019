@@ -11,7 +11,7 @@ namespace Game.Code.Editor
             
             Debug.Log(importer.name);
             
-            if (!importer.assetPath.Contains("Items")) return;
+            if (!importer.assetPath.Contains("Textures")) return;
         
             importer.filterMode = FilterMode.Point;
             importer.textureType = TextureImporterType.Sprite;
