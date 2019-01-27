@@ -32,12 +32,15 @@ public class GameController : MonoBehaviour
                 items[randomNum].isQuestItem = true;
 
                 var newQuestItem = Instantiate<QuestItem>(questItemPrefab, questItemsContainer);
+                
                 newQuestItem.SetSprite(items[randomNum].GetComponent<Image>().sprite);
+                
                 items[randomNum].RevealQuestItemInPanel += () =>
                 {
                      newQuestItem.Reveal();
                      audioSource.Play();
                 };
+                
                 items[randomNum].RevealQuestItemInPanel += () => StartCoroutine(PrintText(items[randomNum].message));
             }
             else

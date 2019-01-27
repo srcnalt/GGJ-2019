@@ -220,7 +220,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isQuestItem: 0
-  message: 
+  message: Need to wash the mud out of them and put them back to shoe cabinet.
 --- !u!1 &46451334
 GameObject:
   m_ObjectHideFlags: 0
@@ -657,7 +657,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isQuestItem: 0
-  message: 
+  message: I wil never be too old for skateboarding. She just doesn't understand that.
 --- !u!1 &170076733
 GameObject:
   m_ObjectHideFlags: 0
@@ -835,7 +835,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isQuestItem: 0
-  message: 
+  message: I'd be surprised to see a mom who encourages her children to smoke.
 --- !u!1 &253570012
 GameObject:
   m_ObjectHideFlags: 0
@@ -1162,7 +1162,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isQuestItem: 0
-  message: 
+  message: It will always be on inner walls of my brain.
 --- !u!1 &465129805
 GameObject:
   m_ObjectHideFlags: 0
@@ -1271,8 +1271,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isQuestItem: 0
-  message: '    Neighbour''s cat is way too lazy. Should I have my own cat, mom? Sorry
-    that you''re allergic to cats. '
+  message: Neighbour's cat is way too lazy. Should I have my own cat, mom? Sorry that
+    you're allergic to cats.
 --- !u!1 &534669902
 GameObject:
   m_ObjectHideFlags: 0
@@ -1463,7 +1463,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isQuestItem: 0
-  message: '    I wear it until it stinks. Save the planet! '
+  message: I wear it until it stinks. Save the planet!
 --- !u!1 &570589279
 GameObject:
   m_ObjectHideFlags: 0
@@ -1572,7 +1572,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isQuestItem: 0
-  message: 
+  message: Don't tell me what to listen!
 --- !u!1 &637718821
 GameObject:
   m_ObjectHideFlags: 0
@@ -1750,7 +1750,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isQuestItem: 0
-  message: 
+  message: It doesn't look stupid. It looks fun.
 --- !u!1 &782886108
 GameObject:
   m_ObjectHideFlags: 0
@@ -1938,7 +1938,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isQuestItem: 0
-  message: 
+  message: I wear it until it stinks! They're all clean! I think they are.
 --- !u!1 &824426734
 GameObject:
   m_ObjectHideFlags: 0
@@ -2156,7 +2156,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isQuestItem: 0
-  message: 
+  message: Broke my arm playing basketball when I was a kid. She still freaks out
+    when I play.
 --- !u!1 &978619086
 GameObject:
   m_ObjectHideFlags: 0
@@ -2301,7 +2302,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isQuestItem: 0
-  message: 
+  message: Come on, it's another sport I like. Not beating anyone.
 --- !u!1 &1001790571
 GameObject:
   m_ObjectHideFlags: 0
@@ -2410,7 +2411,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isQuestItem: 0
-  message: 
+  message: There are lots of holes on the wall beause of this.
 --- !u!1 &1068928881
 GameObject:
   m_ObjectHideFlags: 0
@@ -2628,7 +2629,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isQuestItem: 0
-  message: 
+  message: Better get it out of sight so I can increase my chance of getting some
+    more pocket money.
 --- !u!1 &1132882700
 GameObject:
   m_ObjectHideFlags: 0
@@ -2737,7 +2739,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isQuestItem: 0
-  message: '    It was a fun night though, but, how it landed here? I have no idea. '
+  message: It was a fun night though, but, how it landed here? I have no idea.
 --- !u!1 &1157810306
 GameObject:
   m_ObjectHideFlags: 0
@@ -3024,7 +3026,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isQuestItem: 0
-  message: 
+  message: I know I know, it could be dangerous. But I need it for my ramen.
 --- !u!1 &1246482754
 GameObject:
   m_ObjectHideFlags: 0
@@ -3133,7 +3135,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isQuestItem: 0
-  message: 
+  message: Don't know why she hates gnomes. Must be a childhood trauma.
 --- !u!1 &1368612558
 GameObject:
   m_ObjectHideFlags: 0
@@ -3242,8 +3244,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isQuestItem: 0
-  message: '    This is only funny in cartoons, where you respawn after having your
-    head exploded by a dynamite. '
+  message: This is only funny in cartoons.
 --- !u!1 &1446217269
 GameObject:
   m_ObjectHideFlags: 0
@@ -3479,7 +3480,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isQuestItem: 0
-  message: '    No worries mom, it''s insulin, not heroine. '
+  message: No worries mom, it's insulin, not heroine.
 --- !u!1 &1503809375
 GameObject:
   m_ObjectHideFlags: 0
@@ -3654,7 +3655,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isQuestItem: 0
-  message: 
+  message: I think dishwasher is a good investment.
 --- !u!1 &1749533383
 GameObject:
   m_ObjectHideFlags: 0
@@ -3987,7 +3988,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isQuestItem: 0
-  message: 
+  message: I like to scare people using toys like this, there is nothing wrong with
+    that.
 --- !u!1 &1849397889
 GameObject:
   m_ObjectHideFlags: 0
@@ -4096,7 +4098,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isQuestItem: 0
-  message: ' I don''t think that my mom would get high with me.'
+  message: I don't think that my mom would get high with me.
 --- !u!1 &1907616933
 GameObject:
   m_ObjectHideFlags: 0
@@ -4456,4 +4458,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isQuestItem: 0
-  message: 
+  message: I love scholarly reading. That should be considered something good!
