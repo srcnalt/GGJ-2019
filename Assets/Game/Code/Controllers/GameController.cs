@@ -8,11 +8,11 @@ public class GameController : MonoBehaviour
 {
     [SerializeField] private Text itemMessageField;
     [SerializeField] private QuestItem questItemPrefab;
-    [SerializeField] private Transform questItemsContainer; 
+    [SerializeField] private Transform questItemsContainer;
     [SerializeField] private Item[] items;
     [SerializeField] private Image blackCover;
     [SerializeField] private Text scoreText;
-    
+
     private const int ACTIVE_ITEM_COUNT = 5;
     private int foundItemCount;
     private int[] selectedNumbers = new int[ACTIVE_ITEM_COUNT];
@@ -21,7 +21,7 @@ public class GameController : MonoBehaviour
     private void Start()
     {
         audioSource = GetComponent<AudioSource>();
-        
+
         for (int i = 0; i < ACTIVE_ITEM_COUNT; i++)
         {
             int randomNum = GetRandomNumber();
@@ -32,15 +32,19 @@ public class GameController : MonoBehaviour
                 items[randomNum].isQuestItem = true;
 
                 var newQuestItem = Instantiate<QuestItem>(questItemPrefab, questItemsContainer);
-                
-                newQuestItem.SetSprite(items[randomNum].GetComponent<Image>().sprite);
-                
+
+                Debug.Log(newQuestItem.name);
+
+                var sprite = items[randomNum].GetComponent<Image>().sprite;
+
+                newQuestItem.SetSprite(sprite);
+
                 items[randomNum].RevealQuestItemInPanel += () =>
                 {
                      newQuestItem.Reveal();
                      audioSource.Play();
                 };
-                
+
                 items[randomNum].RevealQuestItemInPanel += () => StartCoroutine(PrintText(items[randomNum].message));
             }
             else
@@ -58,7 +62,7 @@ public class GameController : MonoBehaviour
     private IEnumerator PrintText(string text)
     {
         itemMessageField.text = "";
-        
+
         for (int i = 0; i < text.Length; i++)
         {
             itemMessageField.text += text[i];
@@ -70,7 +74,7 @@ public class GameController : MonoBehaviour
         if (foundItemCount == ACTIVE_ITEM_COUNT)
         {
             scoreText.text = $"You cleaned your room in { (int)Time.timeSinceLevelLoad } seconds!";
-            
+
             yield return new WaitForSeconds(3);
             float alpha = 0;
 
@@ -81,7 +85,7 @@ public class GameController : MonoBehaviour
                 scoreText.color = new Color(1, 1, 1, alpha);
                 yield return null;
             }
-            
+
             yield return new WaitForSeconds(3);
 
             SceneManager.LoadSceneAsync("Credits");
